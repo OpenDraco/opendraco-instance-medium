@@ -18,4 +18,4 @@ def test_rotate_n_equals_len():
 
 
 def test_rotate_n_greater_than_len():
-    assert rotate_left([1, 2, 3], 5) == [2, 3, 1]
+    assert rotate_left([1, 2, 3], 5) == [3, 1, 2]
