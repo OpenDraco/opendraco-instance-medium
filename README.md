@@ -1,6 +1,6 @@
-# evomas-instance-medium
+# opendraco-instance-medium
 
-Synthetic SWE-bench instance for EvoMas APR evaluation — **medium** difficulty tier.
+Synthetic SWE-bench instance for OpenDraco APR evaluation — **medium** difficulty tier.
 
 `rotate_left(arr, n)` slices the input with `arr[n:] + arr[:n]`. This works
 for `n < len(arr)` but **silently breaks for `n >= len(arr)`**: e.g.
